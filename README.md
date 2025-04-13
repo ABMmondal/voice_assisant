@@ -1,12 +1,55 @@
-# React + Vite
+# Voice Assistant with AI Integration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based voice assistant application that combines speech recognition with AI-powered responses. This project creates an interactive virtual assistant that can understand voice commands and respond using natural language processing.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎤 **Voice Recognition**: Built-in speech recognition capabilities using the Web Speech API
+- 🤖 **AI-Powered Responses**: Integration with Gemini AI for intelligent responses
+- 🔊 **Text-to-Speech**: Natural-sounding voice responses in Hindi
+- 🎨 **Modern UI**: Clean and intuitive user interface with animated feedback
+- ⚡ **Real-time Interaction**: Instant voice-to-text and text-to-voice conversion
 
-## Expanding the ESLint configuration
+## Technical Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js for the frontend framework
+- Vite for fast development and building
+- Web Speech API for voice recognition and synthesis
+- Gemini AI integration for intelligent responses
+- Context API for state management
+- Modern CSS for styling
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Usage
+
+1. Click the microphone button to start voice recognition
+2. Speak your command or question
+3. The assistant will process your input and respond verbally
+4. The response will be displayed on screen and spoken aloud
+
+## Project Structure
+
+- `src/`: Main source code directory
+  - `App.jsx`: Main application component
+  - `context/`: Context API implementation
+  - `assets/`: Image and media resources
+  - `gemini.js`: AI integration module
+
+## Contributing
+
+Feel free to submit issues and enhancement requests!
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
